@@ -1,0 +1,42 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.p1{
+    background-color: red;
+    width: 100vw;
+    height: 35vh;
+    margin: 10px;
+    font-size: 1.2em;
+}
+@media screen and (min-width:480px){
+   .p1{
+    background-color: burlywood;
+    width: 100vw;
+    height: 35vh;
+    margin: 10px;
+    font-size: 1.2em;
+       
+    }
+}
+@media screen and (min-width:600px){
+   .p1{
+    background-color: orange;
+    width: 100vw;
+    height: 35vh;
+    margin: 10px;
+    font-size: 1.2em;
+       
+    }
+}
+@media screen and (min-width:1000px){
+   .p1{
+    background-color: aqua;
+    width: 25%;
+    height:auto;
+    margin: 10px;
+    font-size: 1.2em;
+
+       
+    }
+}
