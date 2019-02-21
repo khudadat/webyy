@@ -103,22 +103,31 @@
     margin: 10px auto;
     width: 90vw;
     grid-column-gap: 5px;
-    grid-row-gap: 5px;
+    grid-row-gap: 5vh;
     border: 1px sold red;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     grid-template-rows: auto;
     grid-template-areas: 
-      "r11 r12"
-      "r21 r22"
-      "r31 r32"
-      "r41 r42"
+      "r11 "
+      "r21 "
+      "r31 "
+      "r41 "
 
-      "r13 r14"
-      "r23 r24"
-      "r33 r34"
-      "r43 r44"
+      "r13 "
+      "r23 "
+      "r33 "
+      "r43 "
+      
+      " r12"
+      " r22"
+      "r32"
+      " r42"
 
+      " r14"
+      " r24"
+      " r34"
+      " r44"
 
   }
 img{
