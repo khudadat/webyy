@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.2/dist/jquery.min.js"></script>
+    <script src="contact.js"></script>
+    <link rel="stylesheet" href="contact.css">
+    <title>QCOman Contact</title>
+</head>
+
+<body>
+    <header>
+        <div class="qct">
+            <h1>Quality Carpentry</h1>
+        </div>
+        <div class="nav">
+            <div><a href="index.html">Home</a></div>
+            <div><a href="About.html">About</a></div>
+            <div><a href="contact.html">Contact</a></div>
+            <div><a href="cupboard.html">Draw A Cupboard</a></div>
+
+        </div>
+    </header>
+    
+    <form action="https://formspree.io/Qcoman65@gmail.com" method="POST">
+        <label>
+            Name:
+            <input type="text" name="name" class="name">
+        </label>
+        <label>
+            Email:
+            <input type="email" name="email" class="email">
+        </label>
+        <label>
+            Subject:
+            <input type="text" name="subject" class="subject">
+        </label>
+        <label>
+            Message:
+            <textarea name="message" name="message" id="" cols="30" rows="10"></textarea>
+        </label>
+        <button class="submit">Submit</button>
+    </form>
+    <div class="status"></div>
+</body>
+
+</html>
